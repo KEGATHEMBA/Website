@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint"content="width=device-width,initial-scale=1.0">
+        <title>Enquiry - Tiny Treasures Baby Clothing</title>
+        <link rel="stylesheet"href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <h1>Tiny Treasures Baby Clothing</h1>
+            <img src="images/model.png/1000150031.png" alt="Baby model"
+            <Link rel="icon" type="images/png" href="images/model.png/1000148390.png">
+            <nav>
+                <ul>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="products.html">Products</a>
+                    <a href="enquiry.html">Enquiry</a>
+                    <a href="contact.html">Contact Us</a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Product Enquiry</h2>
+                <p>Have questions about our prodects?Get in touch</p>
+
+                <form 
+                action="mailto:tinytreasures@babyclothing.com"
+                method="post" enctype="type">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" placeholder="Your name rquired">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="Your email rquired">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+                <label for="subject">Enquiry Type</label>
+                <select id="subject" name="subject">
+                    <option value="product">Product Information</option>
+                    <option value="price">Pricing</option>
+                    <option value="order">Order</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+                <button type="submit">Send Message</button>
+        </form>
+
+
+            </section>
+        </main>
+        <footer>
+            <p>&copy;2024 Tiny Treasures Baby Clothing</p>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
